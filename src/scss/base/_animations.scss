@@ -3,9 +3,16 @@
             ***ANIMATIONS***
 */
 
+@media screen and (prefers-reduced-motion: reduce) {
+.title span {
+    opacity: 1;
+    animation: none;
+  }
+}
+
 .title span {
     opacity: 0;
-    border-right: 3px solid white;
+    border-right: 3px solid $white;
     animation: show 0.2s ease-in-out forwards;
 }
 
