@@ -1,0 +1,15 @@
+
+/*
+            ***LINKS***
+*/
+
+.title {
+  &::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border-bottom: 7px double $color-text;
+    box-shadow: 0 2px 17px $color-shadow;
+  }
+}

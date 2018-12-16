@@ -1,0 +1,23 @@
+
+/*
+          ***PRINT STYLES***
+*/
+
+@media print {
+
+  //hide unnecessary elements
+  .extra { display: none; }
+
+  // adjust the typography
+  .wrapper {
+    font-family: serif;
+    font-size: 12pt;
+  }
+  .portrait { 
+    border-color: black;
+    opacity: 1;
+    filter: grayscale(100%);
+    width: 30%;
+    margin: 3% 35%;
+  }
+}

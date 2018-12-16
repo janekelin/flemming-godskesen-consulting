@@ -1,0 +1,55 @@
+
+/* 
+            ***COLOR PALETTE***
+*/
+
+/* Base colors */
+$custom-blue: #1F86AA;
+$custom-green: #49909D;
+$custom-brown: #CDC0C0;
+$custom-gray: #9C99AA;
+$transparent-blue: rgba(31,134,170,0.3);
+$transparent-green: rgba(73,144,157,0.3);
+$transparent-brown: rgba(205,192,192,0.3);
+$white: #fff;
+
+/* Functional colors */
+$color-text: $white;
+$color-border: $custom-green;
+$color-shadow: $transparent-brown;
+$color-link: $custom-brown;
+$color-not-found--content: $custom-blue;
+$color-not-found--heading-bg: $transparent-green;
+$color-not-found--link: $custom-gray;
+
+/* Palettes */
+$colors-extra: $transparent-blue, $transparent-green, $transparent-brown;
+
+/* Gradients */
+$gradient-extra: linear-gradient(230deg, $colors-extra);
+
+/*
+            ***FONTS***
+*/
+
+$font-primary: 'Miriam Libre', Verdana, Helvetica, sans-serif;
+$font-title: 'Aldrich', Verdana, Helvetica, sans-serif;
+
+/*
+            ***BOX MODEL***
+*/
+$width-portrait: 100px;
+$width-portrait-tablet: 230px;
+
+/*
+            ***BOX MODEL***
+*/
+$grid-gap: 10px;
+
+/*
+            ***MEDIA QUERIES***
+*/
+
+$tablet: 1024px;
+$very-large-screen: 2560px;
+$very-small-screen: 425px;
